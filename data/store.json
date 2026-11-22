@@ -387,21 +387,6 @@
       "brand": "Rani"
     },
     {
-      "id": "prod_drink_pineapple",
-      "name": "Pineapple Juice (Can 250ml)",
-      "category": "canned_drink",
-      "description": "Chilled 250ml 100% Pineapple juice can. Tangy and refreshing.",
-      "sellingPrice": 280,
-      "productionCost": 115,
-      "estimatedProfit": 165,
-      "isAvailable": true,
-      "preparationTimeMinutes": 1,
-      "sku": "DRK-CAN-PINEAPPLE",
-      "imageUrl": "/images/drinks/rani-pineapple-shrebian-promo-v2.png",
-      "canSize": "250ml",
-      "brand": "International Nectar"
-    },
-    {
       "id": "prod_drink_mixed",
       "name": "Rani Mix Fruit (Can 250ml)",
       "category": "canned_drink",
