@@ -41,7 +41,7 @@
       "joiningDate": "2026-11-01",
       "assignedSellingPointId": "sp_gulberg",
       "assignedShiftId": "shift_day",
-      "kycStatus": "verified",
+      "kycStatus": "rejected",
       "employmentStatus": "active",
       "verificationNotes": "CNIC verified, police clearance completed",
       "createdAt": "2026-11-01T00:00:00Z"
@@ -1456,6 +1456,17 @@
     }
   ],
   "auditLogs": [
+    {
+      "id": "audit_1795328176033",
+      "timestamp": "2026-11-22T06:16:16.033Z",
+      "userId": "usr_kaleem",
+      "userName": "Kaleem Durrani",
+      "action": "UPDATE_KYC_STATUS",
+      "entityType": "USER",
+      "entityId": "usr_hamza",
+      "previousValue": "verified",
+      "newValue": "rejected"
+    },
     {
       "id": "audit_init",
       "timestamp": "2026-11-21T17:06:27.840Z",
